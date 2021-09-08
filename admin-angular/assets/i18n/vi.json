@@ -1,0 +1,368 @@
+{
+  "auth": {
+    "incorrect_email_or_password": "Sai email hoặc mật khẩu"
+  },
+  "caution": {
+    "name": "Tên cảnh báo",
+    "description": "Mô tả cảnh báo",
+    "create": "Tạo mới cảnh báo",
+    "create_error": "Thêm mới cảnh báo thất bại",
+    "create_success": "Thêm mới cảnh báo thành công",
+    "update_error": "Cập nhật cảnh báo thất bại",
+    "update_success": "Cập nhật cảnh báo thành công"
+  },
+  "validate": {
+    "email_invalid": "Email không hợp lệ"
+  },
+  "common": {
+    "add": "Thêm mới",
+    "all": "Tất cả",
+    "address": "Địa chỉ",
+    "age": "Tuổi",
+    "at": "Tại",
+    "barcode": "Mã vạch",
+    "brand": "Nhãn hàng",
+    "cancel": "Huỷ",
+    "category": "Danh mục",
+    "caution": "Cảnh báo",
+    "content": "Nội dung",
+    "created_at": "Ngày tạo",
+    "delete": "Xoá",
+    "deleted": "Đã xoá",
+    "edit": "Sửa",
+    "event": "Sự kiện",
+    "feed": "Bảng tin",
+    "function": "Chức năng",
+    "image": "Ảnh",
+    "ingredient": "Thành phần",
+    "information": "Thông tin",
+    "language": "Ngôn ngữ",
+    "live_stream": "Live stream",
+    "logo": "Biểu tượng",
+    "load_more": "Tải thêm",
+    "measure": "Đo lường",
+    "new": "Mới",
+    "new_tab": "Tab mới",
+    "notification": "Thông báo",
+    "order": "Đơn hàng",
+    "origin": "Bản gốc",
+    "other": "Khác",
+    "product": "Sản phẩm",
+    "post": "Bài viết",
+    "price": "Giá",
+    "reason": "Lí do",
+    "review": "Đánh giá",
+    "tag": "Tag",
+    "time": "Thời gian",
+    "tip": "Bí quyết",
+    "title": "Tiêu đề",
+    "type": "Loại",
+    "search": "Tìm kiếm",
+    "setting": "Cấu hình",
+    "shop": "Cửa hàng",
+    "status": "Trạng thái",
+    "unit": "Đơn vị",
+    "user": "Người dùng",
+    "update": "Cập nhật",
+    "view": "Xem",
+    "reset": "Đặt lại",
+    "video": "Video"
+  },
+  "brand": {
+    "create": "Tạo mới nhãn hàng",
+    "create_error": "Thêm mới nhãn hàng thất bại",
+    "create_success": "Thêm mới nhãn hàng thành công",
+    "create_slug_from_name": "Tạo đường dẫn từ tên nhãn hàng",
+    "country_code": "Mã quốc gia",
+    "name": "Tên nhãn hàng",
+    "description": "Mô tả nhãn hàng",
+    "type": {
+      "DEPARTMENT_STORE": "Department store",
+      "DRUG_STORE": "Drug store",
+      "ROAD_STORE": "Road store",
+      "ONLINE_OTHER": "Online / Other"
+    },
+    "update_error": "Cập nhật nhãn hàng thất bại",
+    "update_success": "Cập nhật nhãn hàng thành công"
+  },
+  "category": {
+    "create": "Tạo mới danh mục",
+    "create_error": "Thêm mới chức năng thất bại",
+    "create_success": "Thêm mới chức năng thành công",
+    "update_error": "Cập nhật chức năng thất bại",
+    "update_success": "Cập nhật chức năng thành công",
+    "create_slug_from_name": "Tạo đường dẫn từ tên danh mục",
+    "name": "Tên danh mục"
+  },
+  "event": {
+    "create": "Tạo mới sự kiện",
+    "name": "Tên sự kiện",
+    "condition": "Điều kiện tham gia",
+    "cover": "Ảnh bìa",
+    "product": "Sản phẩm liên quan",
+    "period": "Thời gian diễn ra",
+    "start_at": "Ngày bắt đầu",
+    "end_at": "Ngày kết thúc",
+    "review_deadline": "Hạn viết review",
+    "number_of_winners": "Số người trúng giải",
+    "minimum_reviews": "Số review tối thiểu",
+    "point_value": "Số điểm tương ứng",
+    "winner_list": "Danh sách người trúng giải",
+    "select_type_placeholder": "Chọn loại sự kiện",
+    "select_cover_button": "Chọn file",
+    "comment_status": {
+      "created": "Mới tạo",
+      "confirmed": "Nhận quà",
+      "cancelled": "Huỷ quà"
+    },
+    "award_product": "Trao quà",
+    "retrieve_product": "Thu hồi",
+    "winner": "Người trúng thưởng",
+    "upload_winner_list": "Người trúng giải",
+    "download_winner_list_template": "Danh sách mẫu"
+  },
+  "ingredient": {
+    "analyze_from_cosdna_skincarisma": "Phân tích thành phần từ CosDNA hoặc Skincarisma",
+    "attention": "Chú ý",
+    "caution": "Cần chú ý",
+    "combination": "Sử dụng chung với loại khác sẽ phát huy thêm công dụng",
+    "content": "Hàm lượng",
+    "create": "Tạo mới thành phần",
+    "create_error": "Thêm mới thành phần thất bại",
+    "create_success": "Thêm mới thành phần thành công",
+    "description": "Mô tả thành phần",
+    "dose": "Liều lượng khuyên dùng / Liều lượng cho phép sử dụng",
+    "effect": "Công dụng",
+    "exceed_dose": "Trường hợp sử dụng quá liều",
+    "functional_food": "Thực phẩm chức năng",
+    "name": "Tên thành phần",
+    "notable_case": "Các trường hợp cần chú ý",
+    "not_combination": "Không được sử dụng chung với các loại khác",
+    "pregnant": "Phụ nữ có thai có sử dụng được không",
+    "special_function": "Chức năng đặc biệt",
+    "update_error": "Cập nhật thành phần thất bại",
+    "update_success": "Cập nhật thành phần thành công"
+  },
+  "function": {
+    "name": "Tên chức năng",
+    "good": "Tốt",
+    "bad": "Xấu",
+    "recommend": "Khuyên dùng",
+    "symbol": "Biểu tượng",
+    "description": "Mô tả chức năng",
+    "create": "Tạo mới chức năng",
+    "create_error": "Thêm mới chức năng thất bại",
+    "create_success": "Thêm mới chức năng thành công",
+    "update_error": "Cập nhật chức năng thất bại",
+    "update_success": "Cập nhật chức năng thành công"
+  },
+  "language": {
+    "en": "Anh",
+    "ko": "Hàn Quốc",
+    "vi": "Việt Nam"
+  },
+  "live_stream": {
+    "create_banner": "Thêm mới banner"
+  },
+  "order": {
+    "confirmed": "Xác nhận"
+  },
+  "product": {
+    "add_video": "Thêm video",
+    "add_image_description": "Thêm mô tả ảnh",
+    "analyze_ingredient": "Phân tích thành phần",
+    "create": "Tạo mới sản phẩm",
+    "create_error": "Thêm mới sản phẩm thất bại",
+    "create_success": "Thêm mới sản phẩm thành công",
+    "create_slug_from_name": "Tạo đường dẫn từ tên sản phẩm",
+    "energe": "Năng lượng",
+    "energy_per_package": "Năng lượng của 1 đơn vị đóng gói",
+    "name": "Tên sản phẩm",
+    "description": "Mô tả sản phẩm",
+    "image_description": "Mô tả sản phẩm bằng ảnh",
+    "import_ingredients": "Chọn thành phần",
+    "net_weight": "Khối lượng tịnh",
+    "net_weight_per_package": "Khối lượng của 1 đơn vị đóng gói",
+    "net_volume": "Thể tích thực",
+    "net_volume_per_package": "Thể tích của 1 đơn vị đóng gói",
+    "packaging_unit": "Đơn vị đóng gói",
+    "rdi": "Khẩu phần hằng ngày",
+    "rdi_packaging_unit": "Khẩu phần hằng ngày (đơn vị = đơn vị đóng gói)",
+    "remove_video": "Xoá video",
+    "remove_image_description": "Xoá mô tả ảnh",
+    "request": "Yêu cầu",
+    "thumbnail": "Ảnh bìa",
+    "update_error": "Cập nhật sản phẩm thất bại",
+    "update_success": "Cập nhật sản phẩm thành công",
+    "update_status_error": "Cập nhật trạng thái thất bại",
+    "update_status_success": "Cập nhật trạng thái thành công",
+    "video_title": "Tiêu đề của video",
+    "video_url": "Url của video",
+    "view_image": "Xem ảnh",
+    "web_url": "Đường dẫn web",
+    "web_title": "Tiêu đề trang",
+    "web_description": "Mô tả trang"
+  },
+  "post": {
+    "content": "Nội dung bài viết",
+    "approve_success": "Phê duyệt bài viết thành công",
+    "approve_error": "Phê duyệt bài viết thất bại",
+    "total_video": "Tổng số lượng video",
+    "hidden_video": "Video đã ẩn",
+    "manage_video": "Quản lý video",
+    "video_status": "Trạng thái video",
+    "video_list": "Danh sách video",
+    "approve_video_success": "Phê duyệt video thành công",
+    "approve_video_error": "Phê duyệt video thất bại",
+    "hide_video_success": "Ẩn video thành công",
+    "hide_video_error": "Ẩn video thất bại"
+  },
+  "report": {
+    "approve_report_success": "Phê duyệt báo cáo thành công",
+    "approve_report_error": "Phê duyệt báo cáo thất bại",
+    "reject_report_success": "Từ chối báo cáo thành công",
+    "reject_report_error": "Từ chối báo cáo thất bại",
+    "details": "Chi tiết",
+    "sort": {
+      "updated_at_desc": "Ngày cập nhật (mới nhất)",
+      "updated_at_asc": "Ngày cập nhật (cũ nhất)",
+      "created_at_desc": "Ngày tạo (mới nhất)",
+      "created_at_asc": "Ngày tạo (cũ nhất)"
+    },
+    "view_report": "Xem báo cáo",
+    "report_notification": "<i>{{user}}</i> đã báo cáo <strong>bình luận</strong> này trên bài viết của <i>{{postAuthor}}</i> vì lý do {{reportType}}",
+    "report_type": {
+      "NOT_RELATED": "Nội dung không liên quan đến sản phẩm",
+      "REPEAT": "Nội dung bị trùng lặp hoặc không có ý nghĩa",
+      "ADVERTISING": "Đánh giá là quảng cáo hoặc được thực hiện thông qua lợi ích kinh tế với bên ngoài",
+      "SIMPLE": "Câu hỏi đơn giản về sản phẩm hoặc thương hiệu",
+      "SWEARING": "Nội dung chửi thề, văng tục, công kích, v.v..",
+      "PERSONAL_INFORMATION": "Để lộ thông tin cá nhân như số điện thoại...",
+      "SPAM": "Spam",
+      "OTHER": "Khác"
+    },
+    "report_status": {
+      "created": "Mới tạo",
+      "approved": "Đã duyệt",
+      "rejected": "Đã từ chối",
+      "hidden": "Đã ẩn"
+    }
+  },
+  "review": {
+    "approve": "Phê duyệt",
+    "approve_success": "Phê duyệt đánh giá thành công",
+    "approve_error": "Phê duyệt đánh giá thất bại",
+    "approve_report_success": "Phê duyệt báo cáo thành công",
+    "approve_report_error": "Phê duyệt báo cáo thất bại",
+    "by": "Bởi",
+    "content": "Nội dung review",
+    "hide": "Ẩn",
+    "hide_success": "Ẩn đánh giá thành công",
+    "hide_error": "Ẩn đánh giá thất bại",
+    "@_to_mention": "Bắt đầu bằng @ để tìm kiếm người dùng",
+    "user_not_found": "Không tìm thấy người dùng",
+    "reject": "Từ chối",
+    "reject_report_success": "Từ chối báo cáo thành công",
+    "reject_report_error": "Từ chối báo cáo thất bại",
+    "report": "Báo cáo vi phạm",
+    "report_list": "Danh sách báo cáo",
+    "report_type": {
+      "NOT_RELATED": "Nội dung không liên quan đến sản phẩm",
+      "REPEAT": "Nội dung bị trùng lặp hoặc không có ý nghĩa",
+      "ADVERTISING": "Đánh giá là quảng cáo hoặc được thực hiện thông qua lợi ích kinh tế với bên ngoài",
+      "SIMPLE": "Câu hỏi đơn giản về sản phẩm hoặc thương hiệu",
+      "SWEARING": "Nội dung chửi thề, văng tục, công kích, v.v..",
+      "PERSONAL_INFORMATION": "Để lộ thông tin cá nhân như số điện thoại...",
+      "SPAM": "spam",
+      "OTHER": "Khác"
+    },
+    "report_status": {
+      "created": "Mới tạo",
+      "approved": "Đã duyệt",
+      "rejected": "Đã từ chối"
+    },
+    "status": {
+      "created": "Mới tạo",
+      "approved": "Đã duyệt",
+      "hidden": "Đã ẩn"
+    },
+    "sort": {
+      "updated_at_desc": "Ngày cập nhật (mới nhất)",
+      "updated_at_asc": "Ngày cập nhật (cũ nhất)",
+      "created_at_desc": "Ngày tạo (mới nhất)",
+      "created_at_asc": "Ngày tạo (cũ nhất)"
+    },
+    "view_report": "Xem báo cáo"
+  },
+  "shop": {
+    "approve": "Phê duyệt",
+    "block": "Khoá",
+    "name": "Tên shop",
+    "status": {
+      "created": "Chờ xử lý",
+      "approved": "Đã duyệt",
+      "blocked": "Bị khoá"
+    },
+    "upload_s2p": "Upload sản phẩm",
+    "upload_s2p_success": "Upload sản phẩm thành công",
+    "upload_s2p_error": "Upload sản phẩm thất bại"
+  },
+  "ui": {
+    "modal": {
+      "confirm": {
+        "delete_title": "Bạn có muốn xoá {{ target }} này không?",
+        "yes": "Có",
+        "cancel": "Huỷ",
+        "export_event_title": "Bạn có muốn tải danh sách người tham gia của sự kiện này không?"
+      }
+    },
+    "message": {
+      "success": "Thành công",
+      "error": "Thất bại",
+      "can_not_load_data": "Không tải được dữ liệu"
+    },
+    "form": {
+      "should_not_be_empty": "Không được để trống"
+    },
+    "select": {
+      "loading_data": "Đang tải dữ liệu..."
+    }
+  },
+  "user": {
+    "birth_year": "Năm sinh",
+    "phone_number": "SĐT",
+    "skin_type": {
+      "DRY": "Da khô",
+      "OILY": "Da dầu",
+      "NEUTRAL": "Da thường",
+      "MIXED": "Da hỗn hợp",
+      "SENSITIVE": "Da nhạy cảm"
+    },
+    "account_name": "Tên tài khoản",
+    "gender": "Giới tính",
+    "skinType": "Loại da",
+    "official_account": "Tài khoản officical",
+    "block_account": "Block tài khoản",
+    "date_created": "Ngày tạo",
+    "official": "Đã duyệt",
+    "unofficial": "Chưa duyệt",
+    "select": "Chọn",
+    "genders": {
+      "female": "Nữ",
+      "male": "Nam",
+      "other": "Khác"
+    },
+    "block_confirm": "Bạn có muốn block người dùng này không?",
+    "unblock_confirm": "Bạn có muốn unblock người dùng này không?"
+  },
+  "settings": {
+    "account_info": "Thông tin tài khoản",
+    "point": "Điểm",
+    "security": "Bảo mật",
+
+    "account": {
+      "title": "Thông tin cơ bản",
+      "account_features": "Chức năng tài khoản"
+    }
+  }
+}

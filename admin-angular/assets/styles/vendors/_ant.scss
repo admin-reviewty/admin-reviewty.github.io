@@ -1,0 +1,40 @@
+@import '~@ng-select/ng-select/themes/default.theme.css';
+
+.ant-table-content {
+  overflow-x: auto;
+}
+
+.menu-sidebar {
+  .ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+
+    .ant-pro-sider {
+      position: relative;
+      flex: 1 1 0%;
+      overflow: hidden auto;
+
+      .ant-menu {
+        top: 0;
+        left: 0;
+        bottom: 0;
+        overflow: hidden auto;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: hsla(0, 0%, 100%, 0.2);
+      border-radius: 3px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: hsla(0, 0%, 100%, 0.15);
+      border-radius: 3px;
+    }
+  }
+}
