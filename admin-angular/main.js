@@ -552,6 +552,28 @@ GraphQLModule.ɵinj = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_4__["
 
 /***/ }),
 
+/***/ 89019:
+/*!**********************************************!*\
+  !*** ./src/environments/environment.prod.ts ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "environment": () => (/* binding */ environment)
+/* harmony export */ });
+const environment = {
+    production: true,
+    graphqlUri: 'https://api.admin.review-ty.com/graphql',
+    apiUri: 'https://api.admin.review-ty.com/admin-api',
+    tokenKey: 'rvt_tk',
+    videoCategoryId: '7',
+};
+
+
+/***/ }),
+
 /***/ 92340:
 /*!*****************************************!*\
   !*** ./src/environments/environment.ts ***!
@@ -567,9 +589,9 @@ __webpack_require__.r(__webpack_exports__);
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 const environment = {
-    production: true,
-    graphqlUri: 'https://api.admin.review-ty.com/graphql',
-    apiUri: 'https://api.admin.review-ty.com/admin-api',
+    production: false,
+    graphqlUri: 'http://localhost:4000/graphql',
+    apiUri: 'http://localhost:4000/admin-api',
     tokenKey: 'rvt_tk',
     videoCategoryId: '7',
 };
@@ -655,6 +677,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ProductCardFragmentDoc": () => (/* binding */ ProductCardFragmentDoc),
 /* harmony export */   "PostCardFragmentDoc": () => (/* binding */ PostCardFragmentDoc),
 /* harmony export */   "VideoFieldsFragmentDoc": () => (/* binding */ VideoFieldsFragmentDoc),
+/* harmony export */   "ProductVideoFieldsFragmentDoc": () => (/* binding */ ProductVideoFieldsFragmentDoc),
 /* harmony export */   "VideoCardFragmentDoc": () => (/* binding */ VideoCardFragmentDoc),
 /* harmony export */   "ProductListFieldsFragmentDoc": () => (/* binding */ ProductListFieldsFragmentDoc),
 /* harmony export */   "ProductRequestFieldFragmentDoc": () => (/* binding */ ProductRequestFieldFragmentDoc),
@@ -981,6 +1004,7 @@ var PackagingtUnit;
     PackagingtUnit["Pill"] = "PILL";
     PackagingtUnit["Tube"] = "TUBE";
     PackagingtUnit["Box"] = "BOX";
+    PackagingtUnit["Tbsp"] = "TBSP";
 })(PackagingtUnit || (PackagingtUnit = {}));
 var PointStatus;
 (function (PointStatus) {
@@ -1133,6 +1157,7 @@ var Unit;
     Unit["Kcal"] = "kcal";
     Unit["Cal"] = "cal";
     Unit["Cfu"] = "CFU";
+    Unit["Micronutrient"] = "micronutrient";
 })(Unit || (Unit = {}));
 var UserDeleteReason;
 (function (UserDeleteReason) {
@@ -1422,12 +1447,36 @@ const VideoFieldsFragmentDoc = apollo_angular__WEBPACK_IMPORTED_MODULE_0__.gql `
   status
 }
     `;
+const ProductVideoFieldsFragmentDoc = apollo_angular__WEBPACK_IMPORTED_MODULE_0__.gql `
+    fragment ProductVideoFields on Product {
+  price
+  measure
+  thumbnail {
+    small: fixed(width: SMALL) {
+      url
+    }
+    url
+  }
+  translations(where: {language: VI}) {
+    name
+  }
+  reviewsConnection {
+    aggregate {
+      count
+      avg {
+        rate
+      }
+    }
+  }
+}
+    `;
 const VideoCardFragmentDoc = apollo_angular__WEBPACK_IMPORTED_MODULE_0__.gql `
     fragment VideoCard on Post {
   id
   content
   status
   author {
+    id
     account
     avatar {
       url
@@ -1439,8 +1488,24 @@ const VideoCardFragmentDoc = apollo_angular__WEBPACK_IMPORTED_MODULE_0__.gql `
   video {
     ...VideoFields
   }
+  products {
+    ...ProductVideoFields
+  }
+  reactionsConnection {
+    aggregate {
+      sum {
+        value
+      }
+    }
+  }
+  commentsConnection {
+    aggregate {
+      count
+    }
+  }
 }
-    ${VideoFieldsFragmentDoc}`;
+    ${VideoFieldsFragmentDoc}
+${ProductVideoFieldsFragmentDoc}`;
 const ProductListFieldsFragmentDoc = apollo_angular__WEBPACK_IMPORTED_MODULE_0__.gql `
     fragment ProductListFields on Product {
   id
@@ -3417,12 +3482,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ 71570);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ 2316);
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app/app.module */ 36747);
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ 92340);
+/* harmony import */ var _environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment.prod */ 89019);
 
 
 
 
-if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
+if (_environments_environment_prod__WEBPACK_IMPORTED_MODULE_1__.environment.production) {
     (0,_angular_core__WEBPACK_IMPORTED_MODULE_2__.enableProdMode)();
 }
 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__.platformBrowser().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_0__.AppModule)
