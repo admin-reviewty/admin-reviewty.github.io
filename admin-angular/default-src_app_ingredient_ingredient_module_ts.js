@@ -549,36 +549,37 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/forms */ 1707);
 /* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! rxjs */ 79441);
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs */ 81134);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs/operators */ 22663);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! rxjs */ 61486);
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! rxjs */ 81134);
 /* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! rxjs/operators */ 33927);
-/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! rxjs/operators */ 85816);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! rxjs/operators */ 22663);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! rxjs/operators */ 85816);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ 202);
 /* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _graphql_graphql__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../graphql/graphql */ 44092);
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/core */ 2316);
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! @angular/router */ 71258);
-/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/common */ 54364);
-/* harmony import */ var ng_zorro_antd_message__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ng-zorro-antd/message */ 91804);
-/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @ngx-translate/core */ 70325);
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/router */ 71258);
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/common */ 54364);
+/* harmony import */ var ng_zorro_antd_message__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ng-zorro-antd/message */ 91804);
+/* harmony import */ var _ngx_translate_core__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @ngx-translate/core */ 70325);
 /* harmony import */ var _shared_services_language_language_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../shared/services/language/language.service */ 14701);
 /* harmony import */ var _services_unit_converter_unit_converter_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/unit-converter/unit-converter.service */ 45021);
-/* harmony import */ var ng_zorro_antd_page_header__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ng-zorro-antd/page-header */ 92443);
-/* harmony import */ var ng_zorro_antd_breadcrumb__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ng-zorro-antd/breadcrumb */ 17401);
-/* harmony import */ var ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ng-zorro-antd/core/transition-patch */ 29910);
-/* harmony import */ var ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ng-zorro-antd/icon */ 35203);
-/* harmony import */ var ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ng-zorro-antd/form */ 32734);
-/* harmony import */ var ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ng-zorro-antd/card */ 47108);
-/* harmony import */ var ng_zorro_antd_grid__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ng-zorro-antd/grid */ 95039);
-/* harmony import */ var ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ng-zorro-antd/input */ 29422);
+/* harmony import */ var ng_zorro_antd_page_header__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ng-zorro-antd/page-header */ 92443);
+/* harmony import */ var ng_zorro_antd_breadcrumb__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ng-zorro-antd/breadcrumb */ 17401);
+/* harmony import */ var ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ng-zorro-antd/core/transition-patch */ 29910);
+/* harmony import */ var ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ng-zorro-antd/icon */ 35203);
+/* harmony import */ var ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ng-zorro-antd/form */ 32734);
+/* harmony import */ var ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ng-zorro-antd/card */ 47108);
+/* harmony import */ var ng_zorro_antd_grid__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ng-zorro-antd/grid */ 95039);
+/* harmony import */ var ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ng-zorro-antd/input */ 29422);
 /* harmony import */ var _components_function_select_function_select_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../components/function-select/function-select.component */ 16377);
 /* harmony import */ var _components_caution_select_caution_select_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../components/caution-select/caution-select.component */ 87497);
-/* harmony import */ var ng_zorro_antd_input_number__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ng-zorro-antd/input-number */ 77727);
-/* harmony import */ var ng_zorro_antd_tabs__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ng-zorro-antd/tabs */ 97768);
-/* harmony import */ var ng_zorro_antd_button__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ng-zorro-antd/button */ 56079);
-/* harmony import */ var ng_zorro_antd_core_wave__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ng-zorro-antd/core/wave */ 94772);
-/* harmony import */ var ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ng-zorro-antd/select */ 61532);
-/* harmony import */ var ng_zorro_antd_collapse__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ng-zorro-antd/collapse */ 39370);
+/* harmony import */ var ng_zorro_antd_input_number__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ng-zorro-antd/input-number */ 77727);
+/* harmony import */ var ng_zorro_antd_tabs__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ng-zorro-antd/tabs */ 97768);
+/* harmony import */ var ng_zorro_antd_button__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ng-zorro-antd/button */ 56079);
+/* harmony import */ var ng_zorro_antd_core_wave__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ng-zorro-antd/core/wave */ 94772);
+/* harmony import */ var ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ng-zorro-antd/select */ 61532);
+/* harmony import */ var ng_zorro_antd_collapse__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ng-zorro-antd/collapse */ 39370);
 /* harmony import */ var _shared_pipes_emoji_flag_from_language_code_emoji_flag_from_language_code_pipe__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../shared/pipes/emoji-flag-from-language-code/emoji-flag-from-language-code.pipe */ 98877);
 
 
@@ -839,9 +840,12 @@ class IngredientDetailsComponent {
         });
     }
     ngOnInit() {
-        this.route.data
-            .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_10__.takeUntil)(this.destroy$), (0,rxjs_operators__WEBPACK_IMPORTED_MODULE_11__.map)((value) => value.ingredient))
-            .subscribe((ingredient) => {
+        (0,rxjs__WEBPACK_IMPORTED_MODULE_10__.combineLatest)([
+            this.route.data.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_11__.map)((value) => value.ingredient)),
+            this.unitConverter.fetchConfig(),
+        ])
+            .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_12__.takeUntil)(this.destroy$))
+            .subscribe(([ingredient]) => {
             var _a, _b, _c, _d, _e, _f, _g, _h;
             this.ingredient = ingredient;
             const rdiData = this.unitConverter.convert({
@@ -923,8 +927,8 @@ class IngredientDetailsComponent {
             return;
         }
         this.loading = true;
-        (0,rxjs__WEBPACK_IMPORTED_MODULE_12__.of)((_a = this.ingredient) === null || _a === void 0 ? void 0 : _a.id)
-            .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_13__.mergeMap)((value) => {
+        (0,rxjs__WEBPACK_IMPORTED_MODULE_13__.of)((_a = this.ingredient) === null || _a === void 0 ? void 0 : _a.id)
+            .pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_14__.mergeMap)((value) => {
             var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t, _u;
             if (value) {
                 const rdiData = this.unitConverter.convert({
@@ -1018,7 +1022,7 @@ class IngredientDetailsComponent {
         this.destroy$.unsubscribe();
     }
 }
-IngredientDetailsComponent.ɵfac = function IngredientDetailsComponent_Factory(t) { return new (t || IngredientDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_14__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_15__.Location), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_graphql_graphql__WEBPACK_IMPORTED_MODULE_1__.CreateIngredientGQL), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_graphql_graphql__WEBPACK_IMPORTED_MODULE_1__.UpdateIngredientGQL), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](ng_zorro_antd_message__WEBPACK_IMPORTED_MODULE_16__.NzMessageService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_17__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_shared_services_language_language_service__WEBPACK_IMPORTED_MODULE_2__.LanguageService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_services_unit_converter_unit_converter_service__WEBPACK_IMPORTED_MODULE_3__.UnitConverterService)); };
+IngredientDetailsComponent.ɵfac = function IngredientDetailsComponent_Factory(t) { return new (t || IngredientDetailsComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormBuilder), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_15__.ActivatedRoute), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_16__.Location), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_graphql_graphql__WEBPACK_IMPORTED_MODULE_1__.CreateIngredientGQL), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_graphql_graphql__WEBPACK_IMPORTED_MODULE_1__.UpdateIngredientGQL), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](ng_zorro_antd_message__WEBPACK_IMPORTED_MODULE_17__.NzMessageService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_ngx_translate_core__WEBPACK_IMPORTED_MODULE_18__.TranslateService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_shared_services_language_language_service__WEBPACK_IMPORTED_MODULE_2__.LanguageService), _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdirectiveInject"](_services_unit_converter_unit_converter_service__WEBPACK_IMPORTED_MODULE_3__.UnitConverterService)); };
 IngredientDetailsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵdefineComponent"]({ type: IngredientDetailsComponent, selectors: [["app-ingredient-details"]], decls: 51, vars: 27, consts: [[1, "site-page-header"], ["nz-page-header-breadcrumb", ""], ["nz-icon", "", "nzType", "home"], ["routerLink", "/ingredients"], ["nz-form", "", 3, "nzLayout", "formGroup", "ngSubmit"], [1, "mb-3"], [1, "ewg"], ["nz-input", "", "formControlName", "ewg"], ["formControlName", "functionTranslations"], ["formControlName", "cautionTranslations"], [3, "nzAddOnAfter"], ["formControlName", "rdi", "type", "number", 1, "w-100"], ["unit", ""], ["nzType", "editable-card", "formArrayName", "translations", 3, "nzAdd", "nzClose"], ["nzClosable", "", 3, "formGroupName", "nzTitle", "nzClosable", 4, "ngFor", "ngForOf"], [1, "mt-2", "pb-4"], ["nz-button", "", "nzType", "primary", 3, "nzLoading"], ["nz-button", "", "type", "button", 1, "ml-2", 3, "nzDanger", "click"], ["formControlName", "rdiUnit", "nzAllowClear", "", 1, "unit"], [3, "nzValue", "nzLabel", 4, "ngFor", "ngForOf"], [3, "nzValue", "nzLabel"], ["nzClosable", "", 3, "formGroupName", "nzTitle", "nzClosable"], ["title", ""], ["nzHasFeedback", "", 3, "nzErrorTip"], ["formControlName", "language"], ["nz-input", "", "formControlName", "name"], ["nzHasFeedback", ""], ["nz-input", "", "formControlName", "description", 3, "nzAutosize"], ["nz-input", "", "formControlName", "effect", 3, "nzAutosize"], [3, "nzHeader"], ["nz-input", "", "formControlName", "dose", 3, "nzAutosize"], ["nz-input", "", "formControlName", "exceedDose", 3, "nzAutosize"], ["nz-input", "", "formControlName", "pregnant", 3, "nzAutosize"], ["nz-input", "", "formControlName", "combination", 3, "nzAutosize"], ["nz-input", "", "formControlName", "notCombination", 3, "nzAutosize"], ["nz-input", "", "formControlName", "notableCase", 3, "nzAutosize"], ["nz-input", "", "formControlName", "attention", 3, "nzAutosize"]], template: function IngredientDetailsComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](0, "nz-page-header", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵelementStart"](1, "nz-breadcrumb", 1);
@@ -1128,7 +1132,7 @@ IngredientDetailsComponent.ɵcmp = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵproperty"]("nzDanger", true);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵtextInterpolate1"](" ", _angular_core__WEBPACK_IMPORTED_MODULE_7__["ɵɵpipeBind1"](50, 23, "common.cancel"), " ");
-    } }, directives: [ng_zorro_antd_page_header__WEBPACK_IMPORTED_MODULE_18__.NzPageHeaderComponent, ng_zorro_antd_breadcrumb__WEBPACK_IMPORTED_MODULE_19__.NzBreadCrumbComponent, ng_zorro_antd_page_header__WEBPACK_IMPORTED_MODULE_18__.NzPageHeaderBreadcrumbDirective, ng_zorro_antd_breadcrumb__WEBPACK_IMPORTED_MODULE_19__.NzBreadCrumbItemComponent, ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_20__["ɵNzTransitionPatchDirective"], ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_21__.NzIconDirective, _angular_router__WEBPACK_IMPORTED_MODULE_14__.RouterLinkWithHref, _angular_forms__WEBPACK_IMPORTED_MODULE_9__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatusGroup, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_22__.NzFormDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormGroupDirective, ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_23__.NzCardComponent, ng_zorro_antd_grid__WEBPACK_IMPORTED_MODULE_24__.NzRowDirective, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_22__.NzFormItemComponent, ng_zorro_antd_grid__WEBPACK_IMPORTED_MODULE_24__.NzColDirective, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_22__.NzFormLabelComponent, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_22__.NzFormControlComponent, ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_25__.NzInputDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormControlName, _components_function_select_function_select_component__WEBPACK_IMPORTED_MODULE_4__.FunctionSelectComponent, _components_caution_select_caution_select_component__WEBPACK_IMPORTED_MODULE_5__.CautionSelectComponent, ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_25__.NzInputGroupComponent, ng_zorro_antd_input_number__WEBPACK_IMPORTED_MODULE_26__.NzInputNumberComponent, ng_zorro_antd_tabs__WEBPACK_IMPORTED_MODULE_27__.NzTabSetComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormArrayName, _angular_common__WEBPACK_IMPORTED_MODULE_15__.NgForOf, ng_zorro_antd_button__WEBPACK_IMPORTED_MODULE_28__.NzButtonComponent, ng_zorro_antd_core_wave__WEBPACK_IMPORTED_MODULE_29__.NzWaveDirective, ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_30__.NzSelectComponent, ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_30__.NzOptionComponent, ng_zorro_antd_tabs__WEBPACK_IMPORTED_MODULE_27__.NzTabComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormGroupName, ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_25__.NzAutosizeDirective, ng_zorro_antd_collapse__WEBPACK_IMPORTED_MODULE_31__.NzCollapseComponent, ng_zorro_antd_collapse__WEBPACK_IMPORTED_MODULE_31__.NzCollapsePanelComponent], pipes: [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_17__.TranslatePipe, _shared_pipes_emoji_flag_from_language_code_emoji_flag_from_language_code_pipe__WEBPACK_IMPORTED_MODULE_6__.EmojiFlagFromLanguageCodePipe, _angular_common__WEBPACK_IMPORTED_MODULE_15__.LowerCasePipe], styles: [".ewg[_ngcontent-%COMP%] {\n  color: darkgreen;\n  font-weight: bold;\n}\n\n.unit[_ngcontent-%COMP%] {\n  min-width: 100px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZ3JlZGllbnQtZGV0YWlscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFBO0VBQ0EsaUJBQUE7QUFDRjs7QUFFQTtFQUNFLGdCQUFBO0FBQ0YiLCJmaWxlIjoiaW5ncmVkaWVudC1kZXRhaWxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV3ZyB7XG4gIGNvbG9yOiBkYXJrZ3JlZW47XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4udW5pdCB7XG4gIG1pbi13aWR0aDogMTAwcHg7XG59XG4iXX0= */"] });
+    } }, directives: [ng_zorro_antd_page_header__WEBPACK_IMPORTED_MODULE_19__.NzPageHeaderComponent, ng_zorro_antd_breadcrumb__WEBPACK_IMPORTED_MODULE_20__.NzBreadCrumbComponent, ng_zorro_antd_page_header__WEBPACK_IMPORTED_MODULE_19__.NzPageHeaderBreadcrumbDirective, ng_zorro_antd_breadcrumb__WEBPACK_IMPORTED_MODULE_20__.NzBreadCrumbItemComponent, ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_21__["ɵNzTransitionPatchDirective"], ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_22__.NzIconDirective, _angular_router__WEBPACK_IMPORTED_MODULE_15__.RouterLinkWithHref, _angular_forms__WEBPACK_IMPORTED_MODULE_9__["ɵNgNoValidate"], _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatusGroup, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_23__.NzFormDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormGroupDirective, ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_24__.NzCardComponent, ng_zorro_antd_grid__WEBPACK_IMPORTED_MODULE_25__.NzRowDirective, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_23__.NzFormItemComponent, ng_zorro_antd_grid__WEBPACK_IMPORTED_MODULE_25__.NzColDirective, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_23__.NzFormLabelComponent, ng_zorro_antd_form__WEBPACK_IMPORTED_MODULE_23__.NzFormControlComponent, ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_26__.NzInputDirective, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.DefaultValueAccessor, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.NgControlStatus, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormControlName, _components_function_select_function_select_component__WEBPACK_IMPORTED_MODULE_4__.FunctionSelectComponent, _components_caution_select_caution_select_component__WEBPACK_IMPORTED_MODULE_5__.CautionSelectComponent, ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_26__.NzInputGroupComponent, ng_zorro_antd_input_number__WEBPACK_IMPORTED_MODULE_27__.NzInputNumberComponent, ng_zorro_antd_tabs__WEBPACK_IMPORTED_MODULE_28__.NzTabSetComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormArrayName, _angular_common__WEBPACK_IMPORTED_MODULE_16__.NgForOf, ng_zorro_antd_button__WEBPACK_IMPORTED_MODULE_29__.NzButtonComponent, ng_zorro_antd_core_wave__WEBPACK_IMPORTED_MODULE_30__.NzWaveDirective, ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_31__.NzSelectComponent, ng_zorro_antd_select__WEBPACK_IMPORTED_MODULE_31__.NzOptionComponent, ng_zorro_antd_tabs__WEBPACK_IMPORTED_MODULE_28__.NzTabComponent, _angular_forms__WEBPACK_IMPORTED_MODULE_9__.FormGroupName, ng_zorro_antd_input__WEBPACK_IMPORTED_MODULE_26__.NzAutosizeDirective, ng_zorro_antd_collapse__WEBPACK_IMPORTED_MODULE_32__.NzCollapseComponent, ng_zorro_antd_collapse__WEBPACK_IMPORTED_MODULE_32__.NzCollapsePanelComponent], pipes: [_ngx_translate_core__WEBPACK_IMPORTED_MODULE_18__.TranslatePipe, _shared_pipes_emoji_flag_from_language_code_emoji_flag_from_language_code_pipe__WEBPACK_IMPORTED_MODULE_6__.EmojiFlagFromLanguageCodePipe, _angular_common__WEBPACK_IMPORTED_MODULE_16__.LowerCasePipe], styles: [".ewg[_ngcontent-%COMP%] {\n  color: darkgreen;\n  font-weight: bold;\n}\n\n.unit[_ngcontent-%COMP%] {\n  min-width: 100px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZ3JlZGllbnQtZGV0YWlscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGdCQUFBO0VBQ0EsaUJBQUE7QUFDRjs7QUFFQTtFQUNFLGdCQUFBO0FBQ0YiLCJmaWxlIjoiaW5ncmVkaWVudC1kZXRhaWxzLmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmV3ZyB7XG4gIGNvbG9yOiBkYXJrZ3JlZW47XG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xufVxuXG4udW5pdCB7XG4gIG1pbi13aWR0aDogMTAwcHg7XG59XG4iXX0= */"] });
 
 
 /***/ }),
@@ -1487,8 +1491,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "UnitConverterService": () => (/* binding */ UnitConverterService)
 /* harmony export */ });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ 2316);
-/* harmony import */ var _angular_fire_compat_remote_config__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/fire/compat/remote-config */ 44405);
+/* harmony import */ var rxjs_operators__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rxjs/operators */ 33927);
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ 2316);
+/* harmony import */ var _angular_fire_compat_remote_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/fire/compat/remote-config */ 44405);
+
 
 
 const IU = 'IU';
@@ -1499,8 +1505,17 @@ class UnitConverterService {
             this.IUConfig = value && JSON.parse(value);
         });
     }
+    fetchConfig() {
+        return this.remoteConfig.strings.IU_INGREDIENTS.pipe((0,rxjs_operators__WEBPACK_IMPORTED_MODULE_0__.map)((value) => {
+            this.IUConfig = value && JSON.parse(value);
+            return this.IUConfig;
+        }));
+    }
     convert(ingredientRow, toSourceOrTarget) {
         var _a;
+        if (!ingredientRow.amount && ingredientRow.amountUnit === IU) {
+            return Object.assign(Object.assign({}, ingredientRow), { amountUnit: null });
+        }
         const config = (_a = this.IUConfig) === null || _a === void 0 ? void 0 : _a[`${ingredientRow.id}`];
         if (!ingredientRow.amountUnit ||
             !ingredientRow.amount ||
@@ -1520,8 +1535,8 @@ class UnitConverterService {
         return ingredientRow;
     }
 }
-UnitConverterService.ɵfac = function UnitConverterService_Factory(t) { return new (t || UnitConverterService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_fire_compat_remote_config__WEBPACK_IMPORTED_MODULE_1__.AngularFireRemoteConfig)); };
-UnitConverterService.ɵprov = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: UnitConverterService, factory: UnitConverterService.ɵfac });
+UnitConverterService.ɵfac = function UnitConverterService_Factory(t) { return new (t || UnitConverterService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_angular_fire_compat_remote_config__WEBPACK_IMPORTED_MODULE_2__.AngularFireRemoteConfig)); };
+UnitConverterService.ɵprov = /*@__PURE__*/ _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({ token: UnitConverterService, factory: UnitConverterService.ɵfac });
 
 
 /***/ })
