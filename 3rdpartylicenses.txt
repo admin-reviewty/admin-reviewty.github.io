@@ -113,6 +113,8 @@ SOFTWARE.
 
 @apollo/client/utilities
 
+@apollo/client/utilities/globals
+
 @babel/runtime
 MIT
 MIT License
