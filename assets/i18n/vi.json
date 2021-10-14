@@ -354,7 +354,11 @@
       "other": "Khác"
     },
     "block_confirm": "Bạn có muốn block người dùng này không?",
-    "unblock_confirm": "Bạn có muốn unblock người dùng này không?"
+    "unblock_confirm": "Bạn có muốn unblock người dùng này không?",
+    "total_points": "Số điểm khả dụng",
+    "points": {
+      "more_points": "{{more_number}} điểm nữa để đạt level {{next_level}}"
+    }
   },
   "settings": {
     "account_info": "Thông tin tài khoản",
@@ -365,5 +369,8 @@
       "title": "Thông tin cơ bản",
       "account_features": "Chức năng tài khoản"
     }
+  },
+  "comment": {
+    "comment_status": "Trạng thái bình luận"
   }
 }
